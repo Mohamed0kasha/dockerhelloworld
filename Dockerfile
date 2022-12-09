@@ -15,5 +15,5 @@ FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
 COPY --from=build /app .
 #entry
-#entry34
+#entry345
 ENTRYPOINT [ "dotnet", "helloworldapp.dll" ]
